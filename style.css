@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato', sans-serif;
+    
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    height: 50px; 
+      display:flex;
+      align-items: center;
+      justify-content: flex-end;
+  }
+  nav a{
+      color:black;
+      text-decoration: none;
+      margin: 20px; 
+  }
+  .banner{
+      display: flex;
+      align-items: center;
+      padding-left:100px;+
+      justify-content:space-around;   
+  }
+  
+  .banner img{
+      width: 40%;
+  }
+  
+  .banner-left h4{
+  padding-bottom: 20px;
+      
+  }
+  
+  /* Add styles here */
+  /*
+  .searchbar {
+    
+      padding-top:30px;
+  
+      
+      }
+  */
+  
+  .arrowimg{
+  background-color: red;
+  border-radius: 50px;
+  }
+  
+  .about{
+      background-color: white;
+      margin:20px 50px;
+      padding: 20px 0;
+      border-top:1px solid black;
+      border-bottom:1px solid black;
+  }
+  
+  .specialoffers{
+      position: relative;
+      left: 50px;
+  }
+  
+  .beanimg {
+    height: 10px;
+    margin:20px 50px;   
+  }
+  
+  .coffee-name{
+    font-family: 'Open Sans';
+  }
+  
+  .buy{
+      background: #FF5678;
+      color:white;
+      border-radius: 8px;
+      position: absolute;
+      height:24px;
+      width:157px;
+    border-width: 0px;
+  }
+  
+  .container-coffee{
+  display:flex;
+      
+      
+          
+  }
+  
+  .coffee-item{
+      background-color: #F6F2EF;
+      border-radius:16px;
+      padding:40px;
+      margin:20px;
+  }
+  footer{
+      background: black;
+      color:white;
+  }
+  
+  .footer-content{
+    text-align: center;
+    padding: 100px;
+  }
